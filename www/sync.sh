@@ -1,0 +1,1 @@
+s3cmd sync ./ s3://lmv.demos/arkit/ --acl-public

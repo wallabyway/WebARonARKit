@@ -330,7 +330,7 @@
     [self->wkWebView addObserver:self forKeyPath:NSStringFromSelector(@selector(estimatedProgress)) options:NSKeyValueObservingOptionNew context:NULL];
     
     // Load the default website
-    NSString *defaultSite = @"https://s3.amazonaws.com/lmv.demos/metaar/vrtest.html";
+    NSString *defaultSite = @"https://s3.amazonaws.com/lmv.demos/arkit/index.html";
     NSURL *url = [NSURL URLWithString:defaultSite];
     [self->wkWebView loadRequest:[NSURLRequest requestWithURL:url]];
     [self->urlTextField setText:defaultSite];
